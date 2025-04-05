@@ -15,7 +15,7 @@ class RotateMatrix90 {
             }
         }
         
-        // Copy rotated elements tooriginal matrix
+        // Copy rotated elements to original matrix
         for (int i = 0; i < n; i++) {
             System.arraycopy(rotated[i], 0, matrix[i], 0, n);
         }
