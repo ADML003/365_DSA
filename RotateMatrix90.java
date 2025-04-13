@@ -39,4 +39,5 @@ class RotateMatrix90 {
             System.out.println();
         }
     }
-}
+}// Time Complexity: O(n^2)
+// Space Complexity: O(n^2) for the rotated matrix
